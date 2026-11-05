@@ -25,7 +25,7 @@ if (-not $principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administra
 }
 
 # ------------------------------ settings -----------------------------
-$Script:Version   = '1.4'
+$Script:Version   = '1.5'
 $Script:ToolDir   = Join-Path $env:ProgramData 'TonytheboiAutoSS'
 $Script:RecentHrs = 24          # "recent" window for most checks
 
@@ -48,7 +48,19 @@ $Script:CheatWords = @(
     'vape','slinky','whiteout','doomsday','ravenb','raven-b','liquidbounce','wurst','meteor-client',
     'aristois','novoline','rusherhack','future-client','konas','phobos','sigma5','entropy-client',
     'autoclick','auto-click','clicker','injector','inject','xenos','kdmapper','manualmap',
-    'cleaner','privazer','bleachbit','ccleaner','usnjrnl','prefetchclean','hider','bypass','spoofer'
+    'cleaner','privazer','bleachbit','ccleaner','usnjrnl','prefetchclean','hider','bypass','spoofer',
+    # Cheat clients
+    'prestige','thunderhack','bleachhack','kamiblue','lambdaclient','salhack','impactclient','inertia',
+    'astolfo','riseclient','nursultan','celestialclient','expensiveclient','minced','akrien','wexside',
+    'wildclient','pandaware','gamesense','pyroclient','3arthh4ck','boze','exhibition',
+    # Ghost / crystal PvP clients
+    'argonclient','kryptonclient','dripclient','driplite','koid','breezeclient','itami',
+    # Autoclickers and macros
+    '198macro','jitterclick','dragclick','macrorecorder','tinytask','pulover','jitbit','autohotkey',
+    # Injectors and memory tools
+    'cheatengine','extremeinjector','ghinjector','recaf',
+    # Hiders
+    'hidetoolz','processhider'
 )
 
 # Folders where jars are expected (game, launchers, Java installs)
