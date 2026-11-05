@@ -1,18 +1,3 @@
-# =====================================================================
-#  Tonytheboi Auto Screenshare - combined Minecraft screenshare tool
-#  Runs every check from the SS guide and writes an HTML report to the
-#  Desktop. Also launches the external tools (services script, mod
-#  analyzer, P1AE javaw, spokwn parsers, NirSoft tools, System Informer).
-#
-#  Run from CMD as admin:
-#    powershell -ExecutionPolicy Bypass -File "%USERPROFILE%\Downloads\TonytheboiAutoScreenshare.ps1"
-#  or, once hosted on GitHub:
-#    powershell -ExecutionPolicy Bypass -Command "Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/tonytheboi/Tonytheboi-Auto-SS-Tool/main/TonytheboiAutoScreenshare.ps1')"
-#
-#  Read-only: nothing here deletes or changes the player's files, except
-#  the [C] Cleanup option, which removes only what this tool downloaded.
-# =====================================================================
-
 $ErrorActionPreference = 'SilentlyContinue'
 $ProgressPreference    = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
